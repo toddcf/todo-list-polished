@@ -1,7 +1,9 @@
 
 
 // Check off items by clicking them:
-$( "li" ).on( "click", function() {
+// Note that you must select "ul" rather than "li" because the click listener will only be added to elements that existed the first time the code was run.
+// We then add a second argument of "li" to mean that whenever an "li" is clicked inside the "ul", do the following:
+$( "ul" ).on( "click", "li", function() {
 
 	// Add/remove COMPLETED class:
 	$( this ).toggleClass( "completed" );
@@ -9,7 +11,7 @@ $( "li" ).on( "click", function() {
 });
 
 // Click X to delete:
-$( "span" ).on( "click", function( event ) {
+$( "ul" ).on( "click", "span", function( event ) {
 
 	// Fade out the parent element of the span, which is the entire li:
 	$( this ).parent().fadeOut( 500, function() {

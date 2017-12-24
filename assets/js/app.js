@@ -23,3 +23,21 @@ $( "span" ).on( "click", function( event ) {
 	// $( this ).
 
 });
+
+// If ENTER key is pressed, 
+$( "input[type='text']" ).keypress( function( event ) {
+
+	if ( event.which === 13 ) {
+
+		// Grab value of input and store it in variable:
+		var todoText = ( $( this ).val() ); /* "this" refers to the input value above. */
+
+		// Clear input field:
+		$( this ).val( "" );
+
+		// Create new <li> and add it to <ul>:
+		$( "ul" ).append( "<li><span>X</span> " + todoText + "</li>" );
+
+	}
+
+});

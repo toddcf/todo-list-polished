@@ -1,1 +1,6 @@
-alert( "app.js is linked." );
+
+
+// Check off items by clicking them:
+$( "li" ).on( "click", function() {
+	alert( "Element clicked." );
+});

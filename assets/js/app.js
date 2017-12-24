@@ -2,5 +2,8 @@
 
 // Check off items by clicking them:
 $( "li" ).on( "click", function() {
-	alert( "Element clicked." );
+
+	// Add/remove COMPLETED class:
+	$( this ).toggleClass( "completed" );
+
 });

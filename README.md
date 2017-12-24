@@ -1,1 +1,2 @@
-# todo-list-polished
+# To Do List - Polished
+

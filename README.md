@@ -8,3 +8,7 @@ A to do list where you can check and uncheck completed items.
 - CSS3
 - JavaScript
 - jQuery
+
+## This Iteration:
+
+- Fix H1's bg, which is overriding the border radius on the top of the overall container.

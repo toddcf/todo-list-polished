@@ -43,3 +43,8 @@ $( "input[type='text']" ).keypress( function( event ) {
 	}
 
 });
+
+// Toggle input field in and out when PLUS ICON is clicked:
+$( ".fa-plus" ).on( "click", function() {
+	$( "input[type='text']" ).fadeToggle();
+});

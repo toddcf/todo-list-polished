@@ -8,8 +8,8 @@ body {
 
 #container {
 	/*border: 2px solid gray;*/
-	border-radius: 8px;
-	box-shadow: 0 0 15px rgba(0,0,0,0.8);
+	/*border-radius: 8px;*/
+	box-shadow: 0 0 15px rgba(255,255,255,0.8);
 	background-color: #f7f7f7;
 	width: 360px;
 	margin: 100px auto;
@@ -33,11 +33,12 @@ h1 {
 
 input {
 	font-size: 18px;
+	color: #2980b9;
 	background-color: #f7f7f7;
 	width: 100%;
 	padding: 13px 13px 13px 20px;
 	box-sizing: border-box;
-	color: #2980b9;
+	border: 3px solid rgba(0,0,0,0,); /* To fix alignment with the list below the input. */
 }
 
 input:focus {
@@ -80,6 +81,11 @@ span {
 li:hover span {
 	width: 40px;
 	opacity: 1.0;
+}
+
+i:hover,
+li:hover {
+	cursor: pointer;
 }
 
 .completed {

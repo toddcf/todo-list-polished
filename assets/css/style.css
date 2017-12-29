@@ -7,7 +7,6 @@ body {
 }
 
 #container {
-	/*border: 2px solid gray;*/
 	/*border-radius: 8px;*/
 	box-shadow: 0 0 15px rgba(255,255,255,0.8);
 	background: #f7f7f7;
@@ -19,7 +18,7 @@ h1 {
 	/*background: #2980b9;*/
 	background: orange;
 	color: #fff;
-	/*text-align: center;*/
+	text-align: center;
 	margin: 0;
 	padding: 10px 20px;
 	text-transform: uppercase;

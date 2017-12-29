@@ -1,5 +1,8 @@
 body {
-	background-color: silver;
+	background: -webkit-gradient(linear,left top, right top,color-stop(0, #051d46),to(#345f9b));
+	background: -webkit-linear-gradient(left,#051d46 0,#345f9b 100%);
+	background: -o-linear-gradient(left,#051d46 0,#345f9b 100%);
+	background: linear-gradient(to right,#051d46 0,#345f9b 100%);
 	font-family: Lato;
 }
 
@@ -13,7 +16,8 @@ body {
 }
 
 h1 {
-	background: #2980b9;
+	/*background: #2980b9;*/
+	background: orange;
 	color: #fff;
 	text-align: center;
 	margin: 0;

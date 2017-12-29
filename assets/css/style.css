@@ -8,7 +8,8 @@ body {
 
 #container {
 	/*border-radius: 8px;*/
-	box-shadow: 0 0 15px rgba(255,255,255,0.8);
+	-webkit-box-shadow: 0 0 15px rgba(255,255,255,0.8);
+	        box-shadow: 0 0 15px rgba(255,255,255,0.8);
 	background: #f7f7f7;
 	width: 360px;
 	margin: 100px auto;
@@ -36,8 +37,9 @@ input {
 	background-color: #f7f7f7;
 	width: 100%;
 	padding: 13px 13px 13px 20px;
-	box-sizing: border-box;
-	border: 3px solid rgba(0,0,0,0,); /* To fix alignment with the list below the input. */
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	/* border: 3px solid rgba(0,0,0,0,); */ /* To fix alignment with the list below the input. */
 }
 
 input:focus {
@@ -72,6 +74,8 @@ span {
 	text-align: center;
 	width: 0; /* Hidden until li is hovered over. */
 	display: inline-block;
+	-webkit-transition: 0.2s linear;
+	-o-transition: 0.2s linear;
 	transition: 0.2s linear; /* Linear means the animation moves at a constant speed. */
 	opacity: 0; /* So you don't see icon when NOT hovering. */
 }

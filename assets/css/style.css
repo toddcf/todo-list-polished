@@ -10,7 +10,7 @@ body {
 	/*border: 2px solid gray;*/
 	/*border-radius: 8px;*/
 	box-shadow: 0 0 15px rgba(255,255,255,0.8);
-	background-color: #f7f7f7;
+	background: #f7f7f7;
 	width: 360px;
 	margin: 100px auto;
 }
@@ -60,14 +60,13 @@ li {
 	color: #666;
 }
 
-/* 2n styles every other LI: */
+/* 2n styles every other <li>: */
 li:nth-child(2n) {
 	background-color: #f7f7f7;
 }
 
 span {
-	/*background-color: red;*/
-	background-color: #e74c3c;
+	background: #e74c3c;
 	color: #fff;
 	height: 40px;
 	margin-right: 20px;
@@ -83,7 +82,6 @@ li:hover span {
 	opacity: 1.0;
 }
 
-i:hover,
 li:hover {
 	cursor: pointer;
 }

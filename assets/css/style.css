@@ -7,7 +7,6 @@ body {
 }
 
 #container {
-	/*border-radius: 8px;*/
 	-webkit-box-shadow: 0 0 15px rgba(255,255,255,0.8);
 	        box-shadow: 0 0 15px rgba(255,255,255,0.8);
 	background: #f7f7f7;
@@ -16,7 +15,6 @@ body {
 }
 
 h1 {
-	/*background: #2980b9;*/
 	background: orange;
 	color: #fff;
 	text-align: center;
@@ -97,5 +95,3 @@ input:focus {
 	color: gray;
 	text-decoration: line-through;
 }
-
-/* Tooltip */

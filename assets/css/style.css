@@ -31,21 +31,8 @@ h1 {
 	float: right;
 }
 
-input {
-	font-size: 18px;
-	color: #2980b9;
-	background-color: #f7f7f7;
-	width: 100%;
-	padding: 13px 13px 13px 20px;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	/* border: 3px solid rgba(0,0,0,0,); */ /* To fix alignment with the list below the input. */
-}
-
-input:focus {
-	background: #fff;
-	border: 3px solid #2980b9;
-	outline: none;
+.fa-plus:hover {
+	cursor: pointer;
 }
 
 ul {
@@ -89,7 +76,26 @@ li:hover {
 	cursor: pointer;
 }
 
+input {
+	font-size: 18px;
+	color: #2980b9;
+	background-color: #b2b2ff;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border: 3px solid #b2b2ff; /* To fix alignment with the list below the input. */
+}
+
+input:focus {
+	background: #fff;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
 .completed {
 	color: gray;
 	text-decoration: line-through;
 }
+
+/* Tooltip */

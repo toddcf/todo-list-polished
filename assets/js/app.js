@@ -44,7 +44,19 @@ $( "input[type='text']" ).keypress( function( event ) {
 
 });
 
-// Toggle input field in and out when PLUS ICON is clicked:
-$( ".fa-plus" ).on( "click", function() {
+// Toggle input field in and out when PLUS/MINUS ICON is clicked, and toggle icon accordingly:
+$( ".toggler" ).on( "click", function() {
 	$( "input[type='text']" ).fadeToggle();
+
+	var toggler = $( ".toggler" );
+
+	if ( toggler.hasClass( "fa-minus" ) ) {
+		toggler.addClass( "fa-plus" );
+		toggler.removeClass( "fa-minus" );
+	}
+
+	else {
+		toggler.addClass( "fa-minus" );
+		toggler.removeClass( "fa-plus" );
+	}
 });

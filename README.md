@@ -6,10 +6,10 @@ A to do list where you can check and uncheck completed items.
 
 - HTML5
 - CSS3
-- JavaScript
 - jQuery
 
-## This Iteration:
+## How It Works
 
-- Fix H1's bg, which is overriding the border radius on the top of the overall container.
-- Fix input's unwanted box shadow or spacing -- whatever is going wrong there.
+## Future Iterations:
+
+- Add a tooltip ("Show/hide input field") to the + sign.

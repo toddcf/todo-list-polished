@@ -25,11 +25,13 @@ h1 {
 	font-weight: 400;
 }
 
-.fa-plus {
+.fa-plus,
+.fa-minus {
 	float: right;
 }
 
-.fa-plus:hover {
+.fa-plus:hover,
+.fa-minus:hover {
 	cursor: pointer;
 }
 
